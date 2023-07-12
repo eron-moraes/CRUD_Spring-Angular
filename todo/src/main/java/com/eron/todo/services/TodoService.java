@@ -35,4 +35,9 @@ public class TodoService {
 		return list;
 	}
 
+	public Todo create(Todo obj) {
+		obj.setId(null);
+		return repository.save(obj);
+	}
+
 }
