@@ -33,6 +33,7 @@ export class ReadAllComponent implements OnInit {
     });
   }
 
+
   finalizar(item: Todo): void {
     item.finalizado = true;
     this.service.update(item).subscribe(() => {
