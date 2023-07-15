@@ -1,7 +1,9 @@
 # CRUD_Spring-Angular
  Projeto fullstack | Spring e Angular
 
- # Atividade
+O Objetivo do projeto foi criar um CRUD completo fullstack utilizando as boas práticas de projeto em tecnologias como Spring para o backend e Angular para o Frontend. O projeto se resumo a criação de atividades (to-do) onde é possível, criar, editar e deletar os items das listas de atividades.
+
+# Todo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
 
