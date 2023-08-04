@@ -29,7 +29,7 @@ export class UpdateComponent implements OnInit {
       this.todo = resposta;
     })
   }
-
+  //Método de atualização dos dados no CRUD
   update(): void {
     this.formataData();
     this.service.update(this.todo).subscribe((resposta) => {

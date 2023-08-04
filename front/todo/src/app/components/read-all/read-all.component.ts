@@ -19,7 +19,7 @@ export class ReadAllComponent implements OnInit {
   ngOnInit(): void {
     this.findAll();
   }
-
+  // criação do CRUD
   findAll(): void {
     this.service.findAll().subscribe((resposta) => {
       resposta.forEach((todo) => {

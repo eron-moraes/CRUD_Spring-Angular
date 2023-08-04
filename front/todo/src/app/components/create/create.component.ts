@@ -21,7 +21,7 @@ export class CreateComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  // Formato da data para realizar o Todo
   create(): void {
     this.formataData();
     this.service.create(this.todo).subscribe((resposta) => {
@@ -43,3 +43,4 @@ export class CreateComponent implements OnInit {
   }
 
 }
+
